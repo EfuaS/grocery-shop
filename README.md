@@ -4,6 +4,7 @@ This is a Practice Project, to demonstrate some of my favorite libraries and als
 
 OLD & Fav Libraries
 1. Tailwind
+2. Vite-plugin-svgr
 
 
 New & Trying Out
