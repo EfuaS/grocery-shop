@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
-@theme{
---color-app-yellow: #F4AB0Eff;
---color-app-green: #4A681Eff;
---color-antiflash-white: #F4F7FBff;
---color-jasmine: #EFD478ff;
---color-app-purple: #8D1274ff;
---color-button-green: #66AF35ff;
---color-default-color: #30100Eff;
---color-kelly-green: #20A208ff;
+@theme {
+  --color-app-yellow: #ffbb12;
+  --color-app-green: #4a681eff;
+  --color-antiflash-white: #f4f7fbff;
+  --color-jasmine: #efd478ff;
+  --color-app-purple: #8d1274ff;
+  --color-button-green: #66af35ff;
+  --color-default-color: #30100eff;
+  --color-kelly-green: #20a208ff;
 }
 
 :root {
@@ -17,7 +17,7 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: #30100Eff;
+  color: #30100eff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -41,6 +41,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.comissioner-font{
-  font-family: "Commissioner", sans-serif;}
-
+.comissioner-font {
+  font-family: 'Commissioner', sans-serif;
+}

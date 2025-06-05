@@ -1,9 +1,17 @@
-import IconRightArrow from '@icons/right_arrrow.svg?react';
+import IconRightArrow from '@icons/right_arrrow.svg?react'
 
-export default function RightArrowButton() {
+type PropType = {
+  label: string
+  style: string
+}
+
+export default function RightArrowButton({ label, style }: PropType) {
   return (
-    <button className='bg-app-green flex gap-2 text-white py-1.5 px-4 font-medium rounded-[2px]'><p>Shop</p>
-    <IconRightArrow/>
+    <button
+      className={` flex gap-2 ${style} py-1.5 px-4 font-medium rounded-[2px]`}
+    >
+      <p className="whitespace-nowrap">{label}</p>
+      <IconRightArrow />
     </button>
   )
 }
