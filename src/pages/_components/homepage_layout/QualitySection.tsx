@@ -1,5 +1,5 @@
 import RightArrowButton from '../buttons/RightArrowButton'
-// import IconCannibis from '@icons/cannabis.svg?react'
+import IconCannibis from '@icons/cannabis.svg?react'
 
 export default function QualitySection() {
   return (
@@ -9,6 +9,7 @@ export default function QualitySection() {
           <img
             src="./images/kiwis-removebg.png"
             className="size-40 -translate-y-18"
+            alt="2-kiwis"
           />
         </div>
 
@@ -35,9 +36,9 @@ export default function QualitySection() {
               Lorem ispum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's.
             </p>
-            <div className="flex justify-between items-center gap-4">
-              <div className="bg-white rounded-full size-18">
-                {/* <IconCannibis /> */}
+            <div className="flex justify-between items-start gap-8 mt-4">
+              <div className="bg-white rounded-full w-fit p-1 grid">
+                <IconCannibis className="m-auto size-8 text-kelly-green" />
               </div>
               <p className="text-xs font-bold">
                 Lorem ispum is simply dummy text of the printing and typesetting
@@ -46,6 +47,11 @@ export default function QualitySection() {
               <RightArrowButton
                 label="See more"
                 style="text-white border-white/30 border-2"
+              />
+              <img
+                alt="sliced-half-orange"
+                src="./images/orange_removebg.png"
+                className="size-24 scale-150"
               />
             </div>
           </div>

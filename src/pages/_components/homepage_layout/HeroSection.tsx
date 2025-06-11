@@ -4,7 +4,7 @@ import Header from './Header'
 
 export default function HeroSection() {
   return (
-    <div className="h-screen w-full  grid grid-cols-7 overflow-hidden">
+    <div className="h-screen w-full  grid grid-cols-7 ">
       <div className="bg-antiflash-white col-span-4 grid pl-10">
         <div className="my-auto space-y-4">
           <span className="text-5xl italic">Super Market</span>
