@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="bg-antiflash-white col-span-4 grid pl-10">
         <div className="my-auto space-y-4">
           <span className="text-5xl italic">Super Market</span>
-          <div className="text-8xl font-extrabold comissioner-font">
+          <div className=" text-6xl xl:text-8xl font-extrabold comissioner-font">
             <span className="text-kelly-green">HEALTHY </span> <br />
             <span className="text-[#FEB61Aff]">LIVING </span>
           </div>

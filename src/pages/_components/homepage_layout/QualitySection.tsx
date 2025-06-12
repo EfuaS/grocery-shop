@@ -14,7 +14,7 @@ export default function QualitySection() {
         </div>
 
         <img
-          src="./images/vege_basket.jpg"
+          src="./images/vege_basket_removebg.png"
           className="m-auto -translate-y-20"
           alt="basket-of-vegetables"
         />

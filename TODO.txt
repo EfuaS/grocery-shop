@@ -1,0 +1,2 @@
+1. Separate all responsive text definition into css class for easy repetition.
+Responsiveness
